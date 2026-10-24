@@ -1,27 +1,22 @@
 # Heat CVD reproducibility
 
-本公有仓库分别提供关键代码包和数据包，对应2026年10月23日作者修订版本；过程文件未上传。
+## Current rerun: GBD2023 outcomes, downloaded 2026-10-24
 
-- [代码包](heat-cvd-code.zip)：模型、条件转换、统计比较、绘图和上游气候处理代码；包含依赖、运行说明及分析口径。
-- [数据包](heat-cvd-data.zip)：历史分析面板、自然强迫年度暴露、SSP三模型年度输入、当前图表源数据及数值基准。
-- [文件清单与SHA256](FILE_MANIFEST.json)；[压缩包SHA256](SHA256SUMS)。
+The CVD outcome analysis has now been rerun using the newly exported **GBD2023** file. Download date: **2026-10-24**. The previous statement of numerical equivalence between the archived GBD2021 input and GBD2023 is withdrawn: all 18,972 matched exported outcome point estimates differ.
 
-## 使用
+- [GBD2023 code package](heat-cvd-GBD2023-code-20261024.zip)
+- [GBD2023 data and key numerical results](heat-cvd-GBD2023-data-20261024.zip)
+- [GBD2023 file manifest](GBD2023_FILE_MANIFEST_20261024.json)
+- [GBD2023 archive SHA-256](GBD2023_SHA256SUMS_20261024)
 
-```sh
-git clone https://github.com/keyd164/heat-cvd-reproducibility.git
-cd heat-cvd-reproducibility
-unzip -o heat-cvd-code.zip
-unzip -o heat-cvd-data.zip
-python -m pip install -r requirements.txt
-python code/verify_package.py
-Rscript -e 'install.packages("fixest", repos="https://cloud.r-project.org")'
-Rscript code/fit_models.R
-python code/derive_results.py
-```
+Extract both GBD2023 ZIPs into the same **new directory**; the included README provides commands. Models, the existing lead diagnostic, country exclusions, alternative exposures, SDI interactions, zero-ACH contrasts and conditional natural/SSP translations were recomputed. Historical and natural-forcing analyses each completed 2,000 country-bootstrap draws. Primary DALYs beta: 1.266181 (95% CI 0.683698–1.848663), based on the same 203 countries and 6,293 country-years.
 
-两个包解压到同一目录后，代码在 `code/`，数据在 `data/`；完整README和数据字典随包提供。解压会将此分发说明替换为完整运行说明。新结果写入Git忽略的 `results/`。
+**Version separation:** only the CVD outcomes are newly extracted GBD2023 data. SDI remains the 2021 source; SEV covariates remain the archived versions used previously. Climate inputs and covariates were retained and checked against the old panel. No claim is made that those are newly downloaded GBD2023 covariates. GBD2023_PROVENANCE.json records the source export hash and download date. The unchanged climate constructions were not recalculated from daily grids.
 
-打包后已从输入复现四模型、三个结局主模型、现有lead诊断、历史/自然强迫/SSP汇总及Holm比较，并验证独立ZIP解压和干净Git克隆中的校验。Figure5所有时期比较统一为2041–2060与2081–2100。
+This is a numerical rerun release. The older Word manuscript and figure images still contain the previous analysis and must be revised before submission; the package does not silently relabel them. Main and derived estimates should be taken from the clearly labelled GBD2023 results.
 
-本次没有重新进行2000次bootstrap或从全球日尺度网格端到端重算。已报告bootstrap区间作为标记清楚的参考数据提供；原始大规模NetCDF、栅格、草稿、聊天记录、审稿快照、缓存和临时输出均未上传。原历史数据保留GBD2021导出标签；GBD2023引用依据作者报告的数值核对，不表示新下载的2023导出。第三方数据仍遵循原提供方条款。
+## Archived GBD2021 analysis
+
+The original [code ZIP](heat-cvd-code.zip), [data ZIP](heat-cvd-data.zip), [manifest](FILE_MANIFEST.json) and [checksums](SHA256SUMS) remain available for provenance and reproducing the previous GBD2021 analysis. They are **not** the GBD2023 rerun. Use a separate directory when extracting the old packages. Old citation/concordance notes inside the immutable old ZIPs describe the earlier release and are superseded by this correction.
+
+No process logs, drafts, chat history, temporary files, caches, fit objects or unadopted analyses are uploaded. The new data package contains processed annual inputs and key completed numerical summaries; full daily climate files and upstream external files must be obtained separately. Third-party data remain subject to the original provider terms.

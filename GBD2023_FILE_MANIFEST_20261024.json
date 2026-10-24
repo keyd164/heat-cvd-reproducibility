@@ -1,0 +1,277 @@
+{
+  "version": "GBD2023_download_20261024",
+  "outcome_edition": "GBD2023",
+  "download_date": "2026-10-24",
+  "files": [
+    {
+      "path": "analysis_contract.json",
+      "bytes": 1116,
+      "sha256": "542b8a5e6efea4f41523b8c7bee4cfa4374c715c7d9543ec708e56ce157892bd"
+    },
+    {
+      "path": "code/build_natural_ach_delivery_20261015.py",
+      "bytes": 10376,
+      "sha256": "cfc712022fdb941322a9f33c1d12144aba63fe4f54db2899884526f9b8a2a2ad"
+    },
+    {
+      "path": "code/build_SDI_historical_ACH_20261015.py",
+      "bytes": 14819,
+      "sha256": "69d2590f307b6a45473ca8fb21b766e0627d2558b44e93dfc2053d3a69b89082"
+    },
+    {
+      "path": "code/derive_results.py",
+      "bytes": 3626,
+      "sha256": "d77c99ab8c733d4d7d10117765b1ed5ae01e2ecaec896d32476254c96623e0d1"
+    },
+    {
+      "path": "code/fit_models.R",
+      "bytes": 5384,
+      "sha256": "b6a23cc3f46e32e1397fd1f4691be10c935b7aa9356cb0da20a3170dadf25937"
+    },
+    {
+      "path": "code/R/00_registry.R",
+      "bytes": 22357,
+      "sha256": "26cded1d95e5f956c430c1c04b9ada6e9751d550bea11c8aa8484ca2b1aa63a6"
+    },
+    {
+      "path": "code/R/02_data_adapter.R",
+      "bytes": 4508,
+      "sha256": "5ea909b1e5e1f598c2df701a0ce83848b836de5ac03d69642eda17a02d90032b"
+    },
+    {
+      "path": "code/R/02_data_contracts.R",
+      "bytes": 2169,
+      "sha256": "71358baaa0dca6f21c23f035a507b7605042091e1e56236577aabb5dfe2afdba"
+    },
+    {
+      "path": "code/R/03_model_helpers.R",
+      "bytes": 4058,
+      "sha256": "b268955fc41226f372f20eb358a399c133e24a6c1a9788bc5bb1437eb117f8fc"
+    },
+    {
+      "path": "code/R/fixed_effect_covariate_adjustment.R",
+      "bytes": 12189,
+      "sha256": "eca6bd9d57932b4504e4980a783e566f37549d1173b9169373849f24ed310699"
+    },
+    {
+      "path": "code/R/fixed_effect_identification.R",
+      "bytes": 68983,
+      "sha256": "b830d90977ea90c6a1e5d08a22087336f896e113426e3cff87f3fba61d2929c0"
+    },
+    {
+      "path": "code/R/fixed_effect_panel_sensitivity.R",
+      "bytes": 11671,
+      "sha256": "5d1a959d5afa83671c108620752ae273892abbbb65a48288e176111f94d6a0d6"
+    },
+    {
+      "path": "code/run_natural_ach_health_20261015.R",
+      "bytes": 6195,
+      "sha256": "41636ca25de8a4a180fe1b3f4cf423041c6bcbb128c7612754061693c4adbad1"
+    },
+    {
+      "path": "code/run_SDI_historical_ACH_20261015.R",
+      "bytes": 7071,
+      "sha256": "97aaa403fb78f491319edef66ca5e85a33295c024d3571658452224f6018b186"
+    },
+    {
+      "path": "code/verify_package.py",
+      "bytes": 462,
+      "sha256": "00c92fd62e247e2807eb28b8bc2cccc278be427b2207bc902b8ea2e17d52359f"
+    },
+    {
+      "path": "data/DATA_DICTIONARY.md",
+      "bytes": 1697,
+      "sha256": "83b72069cadf41023d5445555e24b17b0a92979bd4cb55e5dca5427cf0273a37"
+    },
+    {
+      "path": "data/DATA_SOURCES.md",
+      "bytes": 1267,
+      "sha256": "07045caa1174835bd5844af9150dd17418e4b27ca7a7c17b0bc28de10bded9e0"
+    },
+    {
+      "path": "data/figure_source/F1_three_outcome_models.csv",
+      "bytes": 555,
+      "sha256": "832ec0c3b4fd47eb207787b7946fd6a247ae4c4da93f85d9a2e420e77b73c033"
+    },
+    {
+      "path": "data/figure_source/F2_SF1_country_means.csv",
+      "bytes": 54631,
+      "sha256": "a0b24380c17bc95f84d18c6eb03f7947e6a6c80575de34e1a862ccaedf93fdd2"
+    },
+    {
+      "path": "data/GBD2023_PROVENANCE.json",
+      "bytes": 1555,
+      "sha256": "8bec8c1c53567e865cfb51bd60f2aa8045b62d4914baf0eb06b9b0744e80ee72"
+    },
+    {
+      "path": "data/GBD2023_results/derived__historical_reference0.csv",
+      "bytes": 284,
+      "sha256": "4d608c65cc1637a150d6808c11d8f72c84c87868b713ac56bf102ca2a24023b8"
+    },
+    {
+      "path": "data/GBD2023_results/derived__natural_forcing_overall.csv",
+      "bytes": 123,
+      "sha256": "1ce80f097fc09744c2d8334e6cc4ca7d570fe8f38b923bea0c86e32f334fc711"
+    },
+    {
+      "path": "data/GBD2023_results/derived__omnibus_tests.csv",
+      "bytes": 283,
+      "sha256": "d953c339e08a5c206ba1d9c91f9f8d4a6db5c9365f1bd558848def4b0be1cad6"
+    },
+    {
+      "path": "data/GBD2023_results/derived__pairwise_tests.csv",
+      "bytes": 728,
+      "sha256": "05b2c04fc6a0b823a4e77ba6bcf34359cdd2e87a4a6e0a9212ff69f4ca19bcd4"
+    },
+    {
+      "path": "data/GBD2023_results/derived__ssp_gap_change.csv",
+      "bytes": 290,
+      "sha256": "b5abe668a8d4bf9f860a612d5f2e6066ca6f48cdf558b1ae04cfe5bd056f3ae9"
+    },
+    {
+      "path": "data/GBD2023_results/derived__ssp_period_summaries.csv",
+      "bytes": 842,
+      "sha256": "244be2e0bc161151b3c6c9741218340899634fb6daf4a22803eef52ef31d4cc0"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__bootstrap_draw_verification.csv",
+      "bytes": 857,
+      "sha256": "655fc4646db43ed9914a0573364b6b763f78d11d6694f42b38df63349296139f"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__coefficients.csv",
+      "bytes": 777,
+      "sha256": "6babec1083a32c43ac9c2f1eda4846d317ee9fd2e254e430ab96aae866a38321"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__historical_health_summary.csv",
+      "bytes": 30267,
+      "sha256": "28e24a127d1026dae3ba9a279b4d9b831f2346a11b08e0f6a3d3146afb8c8aad"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__independent_coefficient_verification.csv",
+      "bytes": 477,
+      "sha256": "2a59b5a5a04bd6a90750f7d64c92492b4fceb0f0311064a997b9e46fd1da7891"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__reference_support.csv",
+      "bytes": 258,
+      "sha256": "c74a144f6e18bd7b54e4d80ebebc01d9f471487fa2d65b9e3094b1aea56aa242"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__SDI_exposure_distributions.csv",
+      "bytes": 1099,
+      "sha256": "e93919303ff74d004989af66fcff469315a634578f3f6184b91207bf49f5dd65"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__SDI_exposure_summary.csv",
+      "bytes": 12421,
+      "sha256": "cf8ce748b757e71d9c3ebbec084aa79c09dd229382174ac4b0b3fea50716b4b7"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__SDI_health_gaps.csv",
+      "bytes": 20043,
+      "sha256": "4ed6b4f9af2fba4b101aa0fb65dc4b30deaf3773010f8f9e9add0753449d40c0"
+    },
+    {
+      "path": "data/GBD2023_results/historical_bootstrap__SDI_slope_tests.csv",
+      "bytes": 642,
+      "sha256": "8b96f5b389a46ea1bde6faf0d8eb5af9e32d47f1f3ca115d9c5a460cd6ed0fd6"
+    },
+    {
+      "path": "data/GBD2023_results/models__alternative_exposures.csv",
+      "bytes": 739,
+      "sha256": "981eb3e6cc5dad42f179d049cbc43dc256f73623ada8d67c6c400c413c238c54"
+    },
+    {
+      "path": "data/GBD2023_results/models__country_exclusions.csv",
+      "bytes": 1282,
+      "sha256": "bb49d77a59b7468e46b2cb25aed660376d8bd0983beb52b2a34e9f2b880bcb51"
+    },
+    {
+      "path": "data/GBD2023_results/models__four_models.csv",
+      "bytes": 769,
+      "sha256": "379e5630d3ec71b1b7ae62e941ea759c089e23430613d4ade06d2ad29fe671c5"
+    },
+    {
+      "path": "data/GBD2023_results/models__published_lead_diagnostic.csv",
+      "bytes": 103,
+      "sha256": "5fb15c45098fc016b825d979cd20717f242f297e4a3e4971d943799c08b4f919"
+    },
+    {
+      "path": "data/GBD2023_results/models__three_outcomes.csv",
+      "bytes": 590,
+      "sha256": "5d09c1e35cc9658f5210d9e9b519db59239657656e790955ddda4d4d390e67bb"
+    },
+    {
+      "path": "data/GBD2023_results/natural_bootstrap__all_natural_ACH_DALYs_summaries.csv",
+      "bytes": 39820,
+      "sha256": "1ac543b80d654edce0c84f809b7d1496678afcd3b740cdef87f420b80e859584"
+    },
+    {
+      "path": "data/GBD2023_results/natural_bootstrap__bootstrap_draw_verification.csv",
+      "bytes": 245,
+      "sha256": "1723eb7b6591cf2af69a7899f259459e2e9756963ccd912d344c06bc0782aef6"
+    },
+    {
+      "path": "data/GBD2023_results/natural_bootstrap__independent_coefficient_verification.csv",
+      "bytes": 130,
+      "sha256": "6d848a73ac30fd29a5a8d396ea4f22d9fbb138d47205f9342007195a4f8e35aa"
+    },
+    {
+      "path": "data/GBD2023_results/natural_bootstrap__main_result_table.csv",
+      "bytes": 2414,
+      "sha256": "3ba3e56b32ca9b5063fda34f899e2e167cfdd6c254fb7dbea596b39f27883dd1"
+    },
+    {
+      "path": "data/input/country_SDI_groups.csv",
+      "bytes": 8685,
+      "sha256": "a836452be5cb4c438e32e191feab303282f815d8922666e2a2f907171dbcc368"
+    },
+    {
+      "path": "data/input/GBD2023_CVD_export_20261024.csv.gz",
+      "bytes": 707699,
+      "sha256": "89419218d29c24ef470cede6fea828cec1032a0fb9d6123a8ea02e831b99ad3f"
+    },
+    {
+      "path": "data/input/historical_panel.csv.gz",
+      "bytes": 1736971,
+      "sha256": "b280d3af30b3d2feebf31ac314569fa144c5000227ddeaec0f3674fcb4314a64"
+    },
+    {
+      "path": "data/input/natural_forcing_panel.csv.gz",
+      "bytes": 174664,
+      "sha256": "688649a9db7cd2ef1ad383908247a0bdcb3270cae6fe0433c09c20722d362dd7"
+    },
+    {
+      "path": "data/input/ssp_ensemble_annual.csv.gz",
+      "bytes": 2115124,
+      "sha256": "5aaa687ec3654b830e9962a3f000c8718980c3454e0be5d926974cc6875d96c3"
+    },
+    {
+      "path": "data/input/ssp_models_annual.csv.gz",
+      "bytes": 6252288,
+      "sha256": "77ee6f4f8c10dccf7f6eace42901cce9f9ded1a19f788b8ddb3fec50007d9d47"
+    },
+    {
+      "path": "data/SOURCE_MANIFEST.json",
+      "bytes": 1233,
+      "sha256": "f16a063c085e07eb6c5179b0748139432caeab4c6bc8afed67bf6490f9f30625"
+    },
+    {
+      "path": "GBD2023_RERUN_REPORT.md",
+      "bytes": 2445,
+      "sha256": "190e8d749edc18231913f0f7365e6ff24a3ffd148357f610f8828b874e443011"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3405,
+      "sha256": "927660faaa51c00ea5de222f6f808359b50aaa77e710f9730e247b0f1b83628a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 109,
+      "sha256": "37a3af98de4ca03d16131b6fc22f153a61edeb3c4dd78bdc56eda935d468a957"
+    }
+  ]
+}
