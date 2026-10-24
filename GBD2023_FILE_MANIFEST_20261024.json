@@ -20,8 +20,8 @@
     },
     {
       "path": "code/derive_results.py",
-      "bytes": 3626,
-      "sha256": "d77c99ab8c733d4d7d10117765b1ed5ae01e2ecaec896d32476254c96623e0d1"
+      "bytes": 3617,
+      "sha256": "00ab3f79ad41037da4b9525000fcc7299c576f11e4d50439b73657331f971c11"
     },
     {
       "path": "code/fit_models.R",
@@ -230,8 +230,8 @@
     },
     {
       "path": "data/input/GBD2023_CVD_export_20261024.csv.gz",
-      "bytes": 707699,
-      "sha256": "89419218d29c24ef470cede6fea828cec1032a0fb9d6123a8ea02e831b99ad3f"
+      "bytes": 711116,
+      "sha256": "6f520ac9c7ac3a52f9e0b831b764db8f6e75a2cb9759cf69e7e8943850e8dc8c"
     },
     {
       "path": "data/input/historical_panel.csv.gz",
@@ -256,7 +256,7 @@
     {
       "path": "data/SOURCE_MANIFEST.json",
       "bytes": 1233,
-      "sha256": "f16a063c085e07eb6c5179b0748139432caeab4c6bc8afed67bf6490f9f30625"
+      "sha256": "2a0c452704e0bbd82f83fcf13ea5515404cb412620683f9b50f6c6147d55b63d"
     },
     {
       "path": "GBD2023_RERUN_REPORT.md",
