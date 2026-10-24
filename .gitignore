@@ -1,0 +1,15 @@
+results/
+external_inputs/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.rds
+.DS_Store
+Thumbs.db

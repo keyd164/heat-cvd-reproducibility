@@ -1,0 +1,305 @@
+{
+  "version": "2026-10-23",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 136,
+      "sha256": "3be5c66dc220d968fd6c544055b1c57f63eb5fb8436aa2cfa406ac7681e472e0"
+    },
+    {
+      "path": "analysis_contract.json",
+      "bytes": 1123,
+      "sha256": "d5188477d8aba24dd5033d3ba4a222cc790a3168eb89295caf558dc9e2f699fd"
+    },
+    {
+      "path": "code/climate/calculate_heat_indicators.py",
+      "bytes": 26353,
+      "sha256": "d1467bc626f9b00fb723e92fdade960e3c2805369e52bade859fda8a6521fe3a"
+    },
+    {
+      "path": "code/climate/external_inputs.example.json",
+      "bytes": 896,
+      "sha256": "5b9f7dfbbc3220464dbf6abe7a91e0fa659b9faeb8c0cf6a14eda70c077355c3"
+    },
+    {
+      "path": "code/climate/natural_forcing.py",
+      "bytes": 15976,
+      "sha256": "90a2db80c3cdb5cde8e17b00b72dd3ba95372273bb3d449ad0f11035da66025f"
+    },
+    {
+      "path": "code/climate/prepare_natural_forcing_geometry.py",
+      "bytes": 3796,
+      "sha256": "cfcebcf17cdde31d99103bdfc6eaa0c6a30aafb8129f44e31f96432bfcb8765d"
+    },
+    {
+      "path": "code/climate/README.md",
+      "bytes": 1493,
+      "sha256": "92664821a309e8d4ae504ed20baa36427ff47059cd25a643b031d5220d26a0d3"
+    },
+    {
+      "path": "code/climate/scripts/02_build_threshold.py",
+      "bytes": 14549,
+      "sha256": "080e4d298db3d2db85295d34b2c5e8c4e308e6d3c5aabfc4c0576409a2012eb8"
+    },
+    {
+      "path": "code/climate/scripts/03_heat_event_detection.py",
+      "bytes": 12929,
+      "sha256": "0e05b58e3c976a6c6bd8022217cfdb246558ed15b106a12bbe96ca541a0ac1d5"
+    },
+    {
+      "path": "code/climate/scripts/04_country_aggregation.py",
+      "bytes": 10283,
+      "sha256": "dd7abf0e51ef9c5247b95723b5f4165d67339e00b77ceba85a62b151e64a8801"
+    },
+    {
+      "path": "code/climate/scripts/05_align_era5_ach.py",
+      "bytes": 18509,
+      "sha256": "a358dc12cdeb9fec3666c3e7fdd5f89570dbf0c19bb6b9529d81bc81a9f9b312"
+    },
+    {
+      "path": "code/climate/scripts/07_build_kace_ach.py",
+      "bytes": 11699,
+      "sha256": "0e95f4f702c774edfe6e64815ac6a7327dc02f09c358b8e1dfbc96484e92566f"
+    },
+    {
+      "path": "code/climate/scripts/prepare_native_country_samplers.py",
+      "bytes": 6511,
+      "sha256": "4bb3a9f5114622875a86246b289b022b9e9279fd126a4a889ef62c7ec1f53b27"
+    },
+    {
+      "path": "code/derive_results.py",
+      "bytes": 4375,
+      "sha256": "f3db6ed9685c9014fe2b29613f2aefd204f5de5ce0874a00a4871e261d4109d7"
+    },
+    {
+      "path": "code/fit_models.R",
+      "bytes": 4628,
+      "sha256": "f5831a414e709f5005926d21acdc7ce90430037ce73cee39fa536b2c475d6107"
+    },
+    {
+      "path": "code/render_descriptive_figures.py",
+      "bytes": 5083,
+      "sha256": "34dfda3648d5320509b1a05fce5bf3974905db8f709de1a86e27d0e0e802335a"
+    },
+    {
+      "path": "code/render_figure5.py",
+      "bytes": 24482,
+      "sha256": "bea56aa26d94f45dc9baba1ac5a926f02ed03fd8bcd6a6eff4407fbbcb864037"
+    },
+    {
+      "path": "code/render_statistical_figures.py",
+      "bytes": 2847,
+      "sha256": "5cb02ae605e48705dc90b95371cffe93769861ec2e1e452da4f97dbeb0265e8a"
+    },
+    {
+      "path": "code/verify_package.py",
+      "bytes": 462,
+      "sha256": "00c92fd62e247e2807eb28b8bc2cccc278be427b2207bc902b8ea2e17d52359f"
+    },
+    {
+      "path": "data/DATA_DICTIONARY.md",
+      "bytes": 2519,
+      "sha256": "6832540eb6981b18f3c9acc561ef9c7d76b2e088eba333e67a1cdf8ea4d7cb34"
+    },
+    {
+      "path": "data/DATA_SOURCES.md",
+      "bytes": 1706,
+      "sha256": "7a00272dd70a401e34b402ac5f55a6753f793b8cfe666aacf4c50bb7da5e5186"
+    },
+    {
+      "path": "data/figure_source/F1_three_outcome_models.csv",
+      "bytes": 655,
+      "sha256": "b1719fd4f80513baefd5c947ccc032b46fb8a91658da7dbdc9ca1e245917a51d"
+    },
+    {
+      "path": "data/figure_source/F1_three_outcome_residuals.csv",
+      "bytes": 1293741,
+      "sha256": "1ad9bf23e453ff691090789f7ee00de1f77fa0a1ccb8f7643f83b331dd281103"
+    },
+    {
+      "path": "data/figure_source/F2_ACH_observations.csv",
+      "bytes": 332921,
+      "sha256": "1fd9f17983c2c0560939075451b795c493c7e519bbf4c6df4e5542054689c99e"
+    },
+    {
+      "path": "data/figure_source/F2_ASDR_observations.csv",
+      "bytes": 388574,
+      "sha256": "2d649e7da6e12f2fcab068d640af454614948351dce8cb22cfc889b1750d0488"
+    },
+    {
+      "path": "data/figure_source/F2_SF1_box_statistics.csv",
+      "bytes": 1958,
+      "sha256": "470b7a25341e2479d76603611df111b27401530604d08ec03133045fafef3bb8"
+    },
+    {
+      "path": "data/figure_source/F2_SF1_country_means.csv",
+      "bytes": 55940,
+      "sha256": "34f606050bf209bca4a838e69f482d4f0098144829a19e9446a5fdcb6bef0c4a"
+    },
+    {
+      "path": "data/figure_source/F2_SF1_SDI_bin_medians.csv",
+      "bytes": 4011,
+      "sha256": "cac9ae16dc33e39c83465f8afefd4cd368d6af2754ed1d1ea528810253f3bbd0"
+    },
+    {
+      "path": "data/figure_source/F4_region_geometry_links.csv",
+      "bytes": 672,
+      "sha256": "397681fe5c2a6d03c35dcfecf8dd0ffcb8284d9180b0403805243446099a6b02"
+    },
+    {
+      "path": "data/figure_source/F4_regional_components.csv",
+      "bytes": 3515,
+      "sha256": "38f08aa0cf8c65336f17a8e71f7f68c736f3472ccd373b9febe50a3752fc9118"
+    },
+    {
+      "path": "data/figure_source/F4_regional_country_year.csv",
+      "bytes": 433936,
+      "sha256": "4755de7183cd28b57c79e03e0e89fc1f1141ad5cd786ddd547ea066b69643105"
+    },
+    {
+      "path": "data/figure_source/F5_gap_change_uniform_windows.csv",
+      "bytes": 687,
+      "sha256": "d04578c3f8bea0f10c50903508f456a641887232c7780afdff24725353393ea6"
+    },
+    {
+      "path": "data/figure_source/F5_gaps.csv",
+      "bytes": 5225,
+      "sha256": "9b8dda632c0b161f02e6ba769d50ec50c4bcff00c3112b02ec2efa58a9b16937"
+    },
+    {
+      "path": "data/figure_source/F5_groups.csv",
+      "bytes": 4863,
+      "sha256": "da95af3e06242f4c620fb1dec15fa0db762203d02e123011831f7c8ac485cd98"
+    },
+    {
+      "path": "data/figure_source/F5_model_ranges.csv",
+      "bytes": 944,
+      "sha256": "27bcf026c667aa1650c405f856200726da2b17335106870682d222452710f158"
+    },
+    {
+      "path": "data/figure_source/F5_overall.csv",
+      "bytes": 1564,
+      "sha256": "ea208a53d2813c48fcefbeb45168189f76cbf15c60819c9ff3853ae0e65c7b7e"
+    },
+    {
+      "path": "data/figure_source/S2_lower_minus_higher_SDI.csv",
+      "bytes": 732,
+      "sha256": "4ee6f26cdca0092523b3bc840e9b7eda1076bb8ed32ad0851c7035118fc5f8f5"
+    },
+    {
+      "path": "data/figure_source/SDI_boxplot_omnibus_tests.csv",
+      "bytes": 296,
+      "sha256": "6d62cfeb188090af235d457146e5ff199bb3b389aeab58c590e879e6355916a9"
+    },
+    {
+      "path": "data/figure_source/SDI_boxplot_pairwise_tests.csv",
+      "bytes": 901,
+      "sha256": "522ec0bd9ad561301c51ccdd9408090159d1570f58c4cb0ba5b6ff23c9cf082b"
+    },
+    {
+      "path": "data/figure_source/SF1_ASIR_observations.csv",
+      "bytes": 378240,
+      "sha256": "c08607c85e8eb15412d98079aadd8ec52b41e2888d345e7040b774648c258d97"
+    },
+    {
+      "path": "data/figure_source/SF1_ASMR_observations.csv",
+      "bytes": 389314,
+      "sha256": "88e316b83b3dff0721c8c5d0dbf6e4f89600f3a7f2337d063a414fd1a77e1ebb"
+    },
+    {
+      "path": "data/input/historical_panel.csv.gz",
+      "bytes": 1837690,
+      "sha256": "4b0044d8d142cd3678c8485c3e26f650ec564d83baaf8151e6bd083f78af91c1"
+    },
+    {
+      "path": "data/input/natural_forcing_panel.csv.gz",
+      "bytes": 174664,
+      "sha256": "688649a9db7cd2ef1ad383908247a0bdcb3270cae6fe0433c09c20722d362dd7"
+    },
+    {
+      "path": "data/input/ssp_ensemble_annual.csv.gz",
+      "bytes": 2115124,
+      "sha256": "5aaa687ec3654b830e9962a3f000c8718980c3454e0be5d926974cc6875d96c3"
+    },
+    {
+      "path": "data/input/ssp_models_annual.csv.gz",
+      "bytes": 6252288,
+      "sha256": "77ee6f4f8c10dccf7f6eace42901cce9f9ded1a19f788b8ddb3fec50007d9d47"
+    },
+    {
+      "path": "data/reference/figure5_gap_definition.json",
+      "bytes": 4612,
+      "sha256": "455eeea044bc44349efabcf92725e8c4bd06e6ab49b7788fd569c313fa5228b7"
+    },
+    {
+      "path": "data/reference/four_model_robustness.csv",
+      "bytes": 1675,
+      "sha256": "6c19c1d3cec1f7d6d568fc18a22b9956bf52a64a4f036924499dc47696c55db0"
+    },
+    {
+      "path": "data/reference/historical_rate_summary_reference0.csv",
+      "bytes": 24792,
+      "sha256": "65fa30a7d989623525cb231f9480a9b1f91a0724828d061622a2b75c47872cf3"
+    },
+    {
+      "path": "data/reference/model_ladder_20261016__supplement_refit.csv",
+      "bytes": 541,
+      "sha256": "dce1c410e87f6e03f97b9dcc52158affdcd7ac96bae2aaf9072691fa4539c4a7"
+    },
+    {
+      "path": "data/reference/model_ladder_20261016_region_corrected__DALYs_influence.csv",
+      "bytes": 1276,
+      "sha256": "be8c209ac5d904fec9331a043158e7f4ad7d0d863eb84906f5db080aaa712881"
+    },
+    {
+      "path": "data/reference/model_ladder_20261016_region_corrected__DALYs_placebos.csv",
+      "bytes": 263,
+      "sha256": "b9fdc2cac8882ba22511e7a2625b217f96da75567822187a5cd77f50b00f6172"
+    },
+    {
+      "path": "data/reference/natural_ach__main_result_table.csv",
+      "bytes": 2410,
+      "sha256": "aaf3b69c2ab5aa831cd996091e3fdab0b856c0fc0951d1dfecfa0806e3a77c71"
+    },
+    {
+      "path": "data/reference/sdi_historical__SDI_slope_tests.csv",
+      "bytes": 679,
+      "sha256": "37bd30d39deead52098a3c4772e01491e5d5bae45e81c39c92295e553bb47537"
+    },
+    {
+      "path": "data/reference/SDI_rate_gaps_reference0.csv",
+      "bytes": 20055,
+      "sha256": "7ecbf4f0edc644a93cd20bdd48948118c4e61091a1d8f27f5f2b324165c3bb79"
+    },
+    {
+      "path": "data/SOURCE_MANIFEST.json",
+      "bytes": 11345,
+      "sha256": "d9958377ecd5c694c1bf648a460e73596dcc7f3f84e3b53cb58ee1f224ba55e0"
+    },
+    {
+      "path": "ENVIRONMENT.json",
+      "bytes": 474,
+      "sha256": "c2619e3a23e576d2fe53fb5a5831a372a3f8e8eb282705c66caf3a464ba013b3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3648,
+      "sha256": "e986c289b3a36cff70c645fd22300dd0125b164512128a6a6d9da89ccc890309"
+    },
+    {
+      "path": "requirements-climate.txt",
+      "bytes": 68,
+      "sha256": "c22e827067be49db80159023e7205c5fe287dafad2c87dc7229cd55619892f96"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 109,
+      "sha256": "37a3af98de4ca03d16131b6fc22f153a61edeb3c4dd78bdc56eda935d468a957"
+    }
+  ]
+}
