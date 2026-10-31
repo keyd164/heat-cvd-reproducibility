@@ -2,7 +2,7 @@
 
 ## Current rerun: GBD2023 outcomes, downloaded 2026-10-24
 
-The CVD outcome analysis has now been rerun using the newly exported **GBD2023** file. Download date: **2026-10-24**. The previous statement of numerical equivalence between the archived GBD2021 input and GBD2023 is withdrawn: all 18,972 matched exported outcome point estimates differ.
+The CVD outcome analysis uses the newly exported **GBD2023** file, downloaded **2026-10-24**. All 18,972 matched outcome point estimates differ from the archived GBD2021 export; the two editions are maintained separately.
 
 - [GBD2023 code package](heat-cvd-GBD2023-code-20261024.zip)
 - [GBD2023 data and key numerical results](heat-cvd-GBD2023-data-20261024.zip)
@@ -13,7 +13,15 @@ Extract both GBD2023 ZIPs into the same **new directory**; the included README p
 
 **Version separation:** only the CVD outcomes are newly extracted GBD2023 data. SDI remains the 2021 source; SEV covariates remain the archived versions used previously. Climate inputs and covariates were retained and checked against the old panel. No claim is made that those are newly downloaded GBD2023 covariates. GBD2023_PROVENANCE.json records the source export hash and download date. The unchanged climate constructions were not recalculated from daily grids.
 
-This is a numerical rerun release. The older Word manuscript and figure images still contain the previous analysis and must be revised before submission; the package does not silently relabel them. Main and derived estimates should be taken from the clearly labelled GBD2023 results.
+## Manuscript and figure version alignment
+
+As of **2026-10-31**, the current author-review manuscript and accompanying figures have been updated to the GBD2023 outcome analysis: 203 countries and territories, 6,293 country-years, and primary DALYs coefficient 1.266181. Rate units are reported per 100,000 population. The main manuscript contains five figures; the complete appendix contains five supplementary figures and 16 numbered tables. These author-review documents are maintained separately from the numerical packages in this repository; this notice does not indicate that manuscript files have been uploaded here or that submission checks are complete.
+
+Use the clearly labelled GBD2023 packages for the current analysis. Earlier GBD2021 packages and any earlier manuscript or figure exports describe the archived analysis and should not be mixed with current results. The primary historical coefficient and the country-trend coefficient support different temporal comparisons; the appendix reports the sensitivity of conditional climate–health translations to coefficient selection. These translations are conditional rate comparisons, not forecasts of total disease rates or identified causal burdens.
+
+## Climate input verification scope
+
+The outcome rerun reused the established annual climate exposure inputs. Five paired BCC natural-forcing construction files have authenticated release identifiers and SHA-256 records. For future SSP inputs, the retained download inventory and NetCDF metadata support model, experiment, member and candidate release identification, but do not establish byte-for-byte correspondence to a specific public release for every file. Collection DOIs and filename matches are not substitutes for per-file checksum authentication. External reconstruction of the daily climate inputs therefore remains subject to the documented provenance limits.
 
 ## Archived GBD2021 analysis
 
